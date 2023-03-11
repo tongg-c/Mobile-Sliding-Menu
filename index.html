@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Sliding Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8dfcc69a1b.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          alt="Odin Logo"
+          class="block lg:hidden h-12 w-auto"
+          src="./assets/odin.svg"
+        />
+      </div>
+      <div data-hamburger class="hamburger">
+        <i data-hamburger class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <aside class="side-menu">
+      <div class="logo-group">
+        <div class="logo">
+          <img
+            alt="Odin Logo"
+            class="block lg:hidden h-12 w-auto"
+            src="./assets/odin.svg"
+          />
+        </div>
+        <h2>The Odin Project</h2>
+      </div>
+      <ul class="side-menu-links">
+        <li class="link-group">
+          <i class="fa-solid fa-house"></i>
+          <p>DashBoard</p>
+        </li>
+        <li class="link-group">
+          <i class="fa-solid fa-map"></i>
+          <p>All Paths</p>
+        </li>
+        <li class="link-group">
+          <i class="fa-solid fa-bell"></i>
+          <p>Notifications</p>
+        </li>
+        <li class="link-group">
+          <i class="fa-solid fa-comments"></i>
+          <p>Community</p>
+        </li>
+      </ul>
+    </aside>
+    <!-- <div data-side-component class="dark-area"></div> -->
+  </body>
+</html>
